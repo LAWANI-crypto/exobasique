@@ -94,7 +94,7 @@ filters.forEach((filter) => (
     filter.addEventListener("click", (e) => {
         filters.forEach((fil) => fil.style.borderColor = "transparent")
     
-        filter.style.borderColor = "red"
+        filter.style.borderColor = "#60a5fa"
         state = filter.dataset.state
         
         reRender();
